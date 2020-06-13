@@ -35,7 +35,6 @@ build_steps:
     - apt-get update
     - pip install runway-python==0.0.74
     - pip install cmake
-    - pip install dlib
     - pip install -r requirements.txt
     # The if_gpu and if_cpu directives can be used to run build steps
     # conditionally depending on the build environment.
